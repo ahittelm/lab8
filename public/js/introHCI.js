@@ -21,7 +21,7 @@ function initGestures() {
 	$(function(){
 		$(".judge-img").bind("taphold", tapholdHandler);
 		
-		function tapholderHandler(event){
+		function tapholdHandler(event){
 			//get id
 			var targetIDPrefix = event.target.id;
 			console.log("got prefix: " + targetIDPrefix);
